@@ -12,6 +12,10 @@
         position: absolute;
         cursor: pointer;
 
+        @include mobile{
+            display: none;
+        }
+
         &.left {
             left: 100px; 
             transform: rotateY(180deg);
@@ -27,6 +31,13 @@
         display: flex;
         position: absolute;
         left: 0;
+        transform: all 1s ease-out;
+
+        @include mobile {
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+        }
         .container{
             width: 100vw;
             display: flex;
@@ -40,6 +51,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                @include mobile {
+                    width: 90%;
+                    height: 160px;
+                    margin: 10px 0;
+                }
                 .left{
                     flex: 4;
                     height: 80%;
@@ -56,13 +73,20 @@
                         justify-content: space-between;
 
                         .imgContainer{
-                            width: 40%;
-                            height: 40%;
+                            width: 40px;
+                            height: 40px;
                             border-radius: 50%;
                             background-color: white;
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            overflow: hidden;
+
+                            @include mobile {
+                                width: 20px;
+                                height: 20px;
+
+                            }
 
                             .icon{
                                 font-size: 50px;
@@ -71,10 +95,15 @@
                             }
                             .material-icons{
                                 color: darkgreen;
-                                font-size: 50px;
+                                font-size: 30px;
                                 animation: iconBlink 2s infinite ease;
+                                
+                                @include mobile{
+                                    font-size: 25px;
+                                }
                             }
                             .iconImg{
+                                width: 100%;
                                 animation: iconBlink 2s infinite ease;
                             }
 
@@ -87,15 +116,25 @@
 
                         h2 {
                                 font-size: 20px;
+                                @include mobile{
+                                    font-size: 12px;
+                                }
                             }
                         p{
                                 font-size: 13px;
+                                @include  mobile {
+                                    display: none;
+                                }
                             }
                         a {
                                 font-size: 18px;
                                 font-weight: 600;
                                 text-decoration: underline;
-                                cursor: pointer;          
+                                cursor: pointer; 
+                                
+                                @include mobile{
+                                    font-size: 10px;
+                                }
                             }
                         
                     }
@@ -111,6 +150,10 @@
                     img{
                         width: 400px;
                         transform: rotate(-10deg);
+
+                        @include mobile{
+                            width: 200px;
+                        }
                     }
 
                 }

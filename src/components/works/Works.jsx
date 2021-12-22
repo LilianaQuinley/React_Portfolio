@@ -28,7 +28,7 @@ export default function Works() {
       id: 3,
       iconImg: '',
       Icon: <EmojiTransportationTwoTone/>,
-      icon2:'emoji_transportation',
+      icon2:'local_taxi',
       title:'Transportation App',
       desc:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
