@@ -7,7 +7,7 @@ export default function Testimonials() {
       id: 1,
       name: "Carlos Cuellar",
       title: 'Co-CEO Before and After Designs!',
-      img: "assets/Carlosj1.jpeg",
+      img: "assets/CarlosJ1.jpeg",
       icon: 'psychology',
       desc:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
