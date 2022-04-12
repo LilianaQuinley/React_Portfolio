@@ -19,7 +19,7 @@ export default function Testimonials() {
       img: "assets/johnQ.jpeg",
       icon: 'computer',
       desc:
-      'Lorem ipsum dolor sit amet, doloribus est necessitatibus rerum ullam.',
+      'Lorem ipsum dolor sit, doloribus est necessitatibus rerum ullam.',
       feature: 'true',
     },
     {
