@@ -6,7 +6,7 @@ export default function Testimonials() {
     {
       id: 1,
       name: "Carlos Cuellar",
-      title: 'Founder of QueBerraquera!',
+      title: 'Co-CEO Before and After Designs!',
       img: "assets/Carlosj1.jpeg",
       icon: 'psychology',
       desc:
@@ -25,7 +25,7 @@ export default function Testimonials() {
     {
       id: 3,
       name: "Diana Cuellar",
-      title: 'CEO of Caro Designer!',
+      title: 'CEO Caro Designers!',
       img: "assets/DianaC.jpg",
       icon: 'house',
       desc:
