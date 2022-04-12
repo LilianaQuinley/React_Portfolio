@@ -7,7 +7,7 @@ export default function Testimonials() {
       id: 1,
       name: "Carlos Cuellar",
       title: 'Founder of QueBerraquera!',
-      img: "assets/carlosj1.jpeg",
+      img: "assets/Carlosj1.jpeg",
       icon: 'psychology',
       desc:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',

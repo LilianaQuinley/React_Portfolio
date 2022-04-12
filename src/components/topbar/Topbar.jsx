@@ -13,7 +13,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
           </div>
           <div className="itemContainer">
             <ContactMail className='icon'/>
-            <span>Olga.L.Quinley@gmail.com</span>
+            <span>liliana.quinley@gmail.com</span>
           </div>
         </div>
        
