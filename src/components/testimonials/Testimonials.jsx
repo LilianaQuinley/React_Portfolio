@@ -29,7 +29,7 @@ export default function Testimonials() {
       img: "assets/DianaC.jpg",
       icon: 'house',
       desc:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, ut fugit.',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing. Provident, ut fugit.',
     }
   ]
 
